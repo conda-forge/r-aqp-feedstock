@@ -2,7 +2,7 @@
 
 package:
   name: r-aqp
-  version: {{ version }}
+  version: {{ version|replace("-", "_") }}
 
 source:
   fn: aqp_{{ version }}.tar.gz
