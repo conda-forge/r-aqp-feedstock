@@ -1,15 +1,15 @@
-{% set version = "1.16" %}
+{% set version = "1.16-3" %}
 
 package:
   name: r-aqp
-  version: {{ version }}
+  version: {{ version|replace("-", "_") }}
 
 source:
   fn: aqp_{{ version }}.tar.gz
   url:
     - https://cran.r-project.org/src/contrib/aqp_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/aqp/aqp_{{ version }}.tar.gz
-  sha256: 5edd44cf30624fe46f15fc39ee9df1d6188dd1cccf97516617567dc5f7967a86
+  sha256: e611369b1bfe73d9ef8f9d4fa999ec73b3edadb5b4ca7d356a9c95a8a1f66799
 
 build:
   number: 0
