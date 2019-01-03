@@ -1,4 +1,4 @@
-{% set version = "1.16-3" %}
+{% set version = "1.17" %}
 
 package:
   name: r-aqp
@@ -9,7 +9,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/aqp_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/aqp/aqp_{{ version }}.tar.gz
-  sha256: e611369b1bfe73d9ef8f9d4fa999ec73b3edadb5b4ca7d356a9c95a8a1f66799
+  sha256: a40d8bf6f1f442b8792dbb00d676ae812210d3abd9ffdb4d7cb925dec6ea7ee4
 
 build:
   noarch: generic
