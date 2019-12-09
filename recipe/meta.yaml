@@ -57,6 +57,8 @@ test:
 about:
   home: https://github.com/ncss-tech/aqp
   license: GPL (>= 3)
+  license_file:
+    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
   summary: A collection of algorithms related to modeling of soil resources, soil classification,
     soil profile aggregation, and visualization.
   license_family: GPL3
