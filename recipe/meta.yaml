@@ -1,4 +1,4 @@
-{% set version = "1.19" %}
+{% set version = "1.25" %}
 
 package:
   name: r-aqp
@@ -9,11 +9,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/aqp_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/aqp/aqp_{{ version }}.tar.gz
-  sha256: 11e498a917176daffde65d12c15899c4386e3b221e8e124ff83d1dabe15fb8fc
+  sha256: f44d946b60e5568041b1854ca17b0de2e877fe244332d4e8a9448e2e0932c5ff
 
 build:
   noarch: generic
-  number: 1
+  number: 0
   script: R CMD INSTALL --build .
   rpaths:
     - lib/R/lib/
@@ -58,9 +58,8 @@ about:
   home: https://github.com/ncss-tech/aqp
   license: GPL (>= 3)
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
-  summary: A collection of algorithms related to modeling of soil resources, soil classification,
-    soil profile aggregation, and visualization.
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  summary: A collection of algorithms related to modeling of soil resources, soil classification, soil profile aggregation, and visualization.
   license_family: GPL3
 
 extra:
