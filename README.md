@@ -5,11 +5,9 @@ Home: https://github.com/ncss-tech/aqp
 
 Package license: GPL (>= 3)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-aqp-feedstock/blob/master/LICENSE.txt)
 
 Summary: A collection of algorithms related to modeling of soil resources, soil classification, soil profile aggregation, and visualization.
-
-
 
 Current build status
 ====================
