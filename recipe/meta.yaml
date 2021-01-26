@@ -26,17 +26,17 @@ requirements:
   host:
     - r-base
     - r-cluster
+    - r-data.table
     - r-lattice
     - r-plyr
-    - r-reshape
     - r-sp
     - r-stringr
   run:
     - r-base
     - r-cluster
+    - r-data.table
     - r-lattice
     - r-plyr
-    - r-reshape
     - r-sp
     - r-stringr
 
