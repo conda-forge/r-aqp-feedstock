@@ -1,4 +1,4 @@
-{% set version = "2.0.2" %}
+{% set version = "2.0.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/aqp_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/aqp/aqp_{{ version }}.tar.gz
-  sha256: 8f987577a1d98d2a07d2c7210be129d2dc094813adc774b3d2c55b60965c6e80
+  sha256: 823d9b353ce59f3ffe1e5a276adfaaed3dff3732eb220907fd4816cae00feae6
 
 build:
   merge_build_host: true  # [win]
