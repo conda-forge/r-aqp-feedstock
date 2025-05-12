@@ -24,19 +24,23 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-ape
     - r-cluster
+    - r-colorspace
     - r-data.table
+    - r-digest
     - r-farver
     - r-lattice
-    - r-sp
     - r-stringr
   run:
     - r-base
+    - r-ape
     - r-cluster
+    - r-colorspace
     - r-data.table
+    - r-digest
     - r-farver
     - r-lattice
-    - r-sp
     - r-stringr
 
 test:
