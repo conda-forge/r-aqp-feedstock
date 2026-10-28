@@ -1,4 +1,4 @@
-{% set version = "2.3.2" %}
+{% set version = "2.3.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/aqp_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/aqp/aqp_{{ version }}.tar.gz
-  sha256: 6e04e7d56c99570c27fe5c89d3ef554e2d524885a2f642e4d1276db5dbb126ae
+  sha256: 67c429b31df9f85b6ed336647e632b75a34a486f457cecaee727fe5482892b1b
 
 build:
   number: 0
